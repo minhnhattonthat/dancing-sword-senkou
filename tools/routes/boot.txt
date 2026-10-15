@@ -1,0 +1,10 @@
+# cold boot -> intro -> title -> NEW GAME -> character select -> first dialogue
+700 -
+6 start
+120 -
+6 start
+120 -
+6 a
+120 -
+6 a
+400 -

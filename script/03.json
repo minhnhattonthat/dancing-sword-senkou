@@ -1,0 +1,1632 @@
+[
+ {
+  "id": "7AD38C.00",
+  "block": "7AD38C",
+  "table_idx": [
+   54
+  ],
+  "attr": "10000000",
+  "jp": [
+   "・・・門が開かない",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AD38C.01",
+  "block": "7AD38C",
+  "table_idx": [
+   54
+  ],
+  "attr": "13000000",
+  "jp": [
+   "・・・先に行かなくちゃ・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AD38C.02",
+  "block": "7AD38C",
+  "table_idx": [
+   54
+  ],
+  "attr": "12000000",
+  "jp": [
+   "・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7A6484.03"
+ },
+ {
+  "id": "7AD38C.03",
+  "block": "7AD38C",
+  "table_idx": [
+   54
+  ],
+  "attr": "10000000",
+  "jp": [
+   "・・・聞こえる",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AD38C.04",
+  "block": "7AD38C",
+  "table_idx": [
+   54
+  ],
+  "attr": "64000000",
+  "jp": [
+   "マバユイカガヤキガアラタナルミチヲヒラク",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AC834.03"
+ },
+ {
+  "id": "7AD38C.05",
+  "block": "7AD38C",
+  "table_idx": [
+   54
+  ],
+  "attr": "12000000",
+  "jp": [
+   "・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7A6484.03"
+ },
+ {
+  "id": "7AD38C.06",
+  "block": "7AD38C",
+  "table_idx": [
+   54
+  ],
+  "attr": "12000000",
+  "jp": [
+   "なんのこと・・・？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AD38C.07",
+  "block": "7AD38C",
+  "table_idx": [
+   54
+  ],
+  "attr": "13000000",
+  "jp": [
+   "戻れば何かがあるのね",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AD6A4.00",
+  "block": "7AD6A4",
+  "table_idx": [
+   185
+  ],
+  "attr": "64000000",
+  "jp": [
+   "マバユイカガヤキガアラタナルミチヲヒラク",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AC834.03"
+ },
+ {
+  "id": "7AD6A4.01",
+  "block": "7AD6A4",
+  "table_idx": [
+   185
+  ],
+  "attr": "00000000",
+  "jp": [
+   "うーん",
+   "後ろから聞こえたような・・・"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AC834.06"
+ },
+ {
+  "id": "7AD7AC.00",
+  "block": "7AD7AC",
+  "table_idx": [
+   186
+  ],
+  "attr": "64000000",
+  "jp": [
+   "マバユイカガヤキガアラタナルミチヲヒラク",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AC834.03"
+ },
+ {
+  "id": "7AD7AC.01",
+  "block": "7AD7AC",
+  "table_idx": [
+   186
+  ],
+  "attr": "07000000",
+  "jp": [
+   "うしろから聞こえたような・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7ACAF4.06"
+ },
+ {
+  "id": "7AD8B4.00",
+  "block": "7AD8B4",
+  "table_idx": [
+   188
+  ],
+  "attr": "64000000",
+  "jp": [
+   "マバユイカガヤキガアラタナルミチヲヒラク",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AC834.03"
+ },
+ {
+  "id": "7AD8B4.01",
+  "block": "7AD8B4",
+  "table_idx": [
+   188
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "後ろから聞こえたのら",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7ACE0C.06"
+ },
+ {
+  "id": "7AD9BC.00",
+  "block": "7AD9BC",
+  "table_idx": [
+   187
+  ],
+  "attr": "64000000",
+  "jp": [
+   "マバユイカガヤキガアラタナルミチヲヒラク",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AC834.03"
+ },
+ {
+  "id": "7AD9BC.01",
+  "block": "7AD9BC",
+  "table_idx": [
+   187
+  ],
+  "attr": "08000000",
+  "jp": [
+   "まずは戻れということか",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AD0CC.06"
+ },
+ {
+  "id": "7ADAC4.00",
+  "block": "7ADAC4",
+  "table_idx": [
+   189
+  ],
+  "attr": "64000000",
+  "jp": [
+   "マバユイカガヤキガアラタナルミチヲヒラク",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AC834.03"
+ },
+ {
+  "id": "7ADAC4.01",
+  "block": "7ADAC4",
+  "table_idx": [
+   189
+  ],
+  "attr": "13000000",
+  "jp": [
+   "戻れば何かがあるのね",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AD38C.07"
+ },
+ {
+  "id": "7ADBCC.00",
+  "block": "7ADBCC",
+  "table_idx": [
+   55
+  ],
+  "attr": "00000000",
+  "jp": [
+   "門の開く音がしたわ",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7ADBCC.01",
+  "block": "7ADBCC",
+  "table_idx": [
+   55
+  ],
+  "attr": "01000000",
+  "jp": [
+   "先に進めるみたいね",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7ADCD4.00",
+  "block": "7ADCD4",
+  "table_idx": [
+   56
+  ],
+  "attr": "07000000",
+  "jp": [
+   "門の開く音？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7ADCD4.01",
+  "block": "7ADCD4",
+  "table_idx": [
+   56
+  ],
+  "attr": "07000000",
+  "jp": [
+   "まったく・・・やっと進めたみたいね",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7ADDDC.00",
+  "block": "7ADDDC",
+  "table_idx": [
+   58
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "門が開く音がしたのら",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7ADDDC.01",
+  "block": "7ADDDC",
+  "table_idx": [
+   58
+  ],
+  "attr": "0f000000",
+  "jp": [
+   "ガンガン行くのらぁ！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7ADEE4.00",
+  "block": "7ADEE4",
+  "table_idx": [
+   57
+  ],
+  "attr": "09000000",
+  "jp": [
+   "門の開く音が聞こえた・・・？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7ADEE4.01",
+  "block": "7ADEE4",
+  "table_idx": [
+   57
+  ],
+  "attr": "08000000",
+  "jp": [
+   "先に進めるみたいね",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7ADBCC.01"
+ },
+ {
+  "id": "7ADFEC.00",
+  "block": "7ADFEC",
+  "table_idx": [
+   59
+  ],
+  "attr": "10000000",
+  "jp": [
+   "・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7A6484.03"
+ },
+ {
+  "id": "7ADFEC.01",
+  "block": "7ADFEC",
+  "table_idx": [
+   59
+  ],
+  "attr": "13000000",
+  "jp": [
+   "先から音がしたの・・・？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE0F4.00",
+  "block": "7AE0F4",
+  "table_idx": [
+   60
+  ],
+  "attr": "00000000",
+  "jp": [
+   "この石は？？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE0F4.01",
+  "block": "7AE0F4",
+  "table_idx": [
+   60
+  ],
+  "attr": "03000000",
+  "jp": [
+   "んん！？体が、すい込まれるわ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE1FC.00",
+  "block": "7AE1FC",
+  "table_idx": [
+   61
+  ],
+  "attr": "07000000",
+  "jp": [
+   "この石は何かしら！？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE1FC.01",
+  "block": "7AE1FC",
+  "table_idx": [
+   61
+  ],
+  "attr": "06000000",
+  "jp": [
+   "！！？体が・・・すい込まれる！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE304.00",
+  "block": "7AE304",
+  "table_idx": [
+   63
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "この石なんなのらぁ？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE304.01",
+  "block": "7AE304",
+  "table_idx": [
+   63
+  ],
+  "attr": "0e000000",
+  "jp": [
+   "のわ！？体がすいこまれる～～！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE40C.00",
+  "block": "7AE40C",
+  "table_idx": [
+   62
+  ],
+  "attr": "08000000",
+  "jp": [
+   "なんだこの石は？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE40C.01",
+  "block": "7AE40C",
+  "table_idx": [
+   62
+  ],
+  "attr": "09000000",
+  "jp": [
+   "なに！！体が・・・・・・！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE514.00",
+  "block": "7AE514",
+  "table_idx": [
+   64
+  ],
+  "attr": "10000000",
+  "jp": [
+   "この石から何かかんじる・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE5C4.00",
+  "block": "7AE5C4",
+  "table_idx": [
+   65
+  ],
+  "attr": "00000000",
+  "jp": [
+   "神殿がきれいになってる・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE5C4.01",
+  "block": "7AE5C4",
+  "table_idx": [
+   65
+  ],
+  "attr": "00000000",
+  "jp": [
+   "なるほど、過去にとばされたみたいね！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE5C4.02",
+  "block": "7AE5C4",
+  "table_idx": [
+   65
+  ],
+  "attr": "01000000",
+  "jp": [
+   "あらあら、",
+   "時間がせまってるみたいね"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE5C4.03",
+  "block": "7AE5C4",
+  "table_idx": [
+   65
+  ],
+  "attr": "00000000",
+  "jp": [
+   "こいつらをたおして、",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE5C4.04",
+  "block": "7AE5C4",
+  "table_idx": [
+   65
+  ],
+  "attr": "02000000",
+  "jp": [
+   "力を見せろってことかしらっ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE7D4.00",
+  "block": "7AE7D4",
+  "table_idx": [
+   66
+  ],
+  "attr": "07000000",
+  "jp": [
+   "神殿がこわれていないわ・・・・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE7D4.01",
+  "block": "7AE7D4",
+  "table_idx": [
+   66
+  ],
+  "attr": "07000000",
+  "jp": [
+   "ここは過去の神殿みたいね",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE7D4.02",
+  "block": "7AE7D4",
+  "table_idx": [
+   66
+  ],
+  "attr": "06000000",
+  "jp": [
+   "空間がゆがんできている？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE7D4.03",
+  "block": "7AE7D4",
+  "table_idx": [
+   66
+  ],
+  "attr": "07000000",
+  "jp": [
+   "時間が無さそうね・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE7D4.04",
+  "block": "7AE7D4",
+  "table_idx": [
+   66
+  ],
+  "attr": "06000000",
+  "jp": [
+   "さぁ！",
+   "そこをどきなさい！！"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE9E4.00",
+  "block": "7AE9E4",
+  "table_idx": [
+   68
+  ],
+  "attr": "0d000000",
+  "jp": [
+   "わお！きれいになってるのらーー",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE9E4.01",
+  "block": "7AE9E4",
+  "table_idx": [
+   68
+  ],
+  "attr": "0d000000",
+  "jp": [
+   "昔かなぁ？？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE9E4.02",
+  "block": "7AE9E4",
+  "table_idx": [
+   68
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "まわりがへんになってきてる・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE9E4.03",
+  "block": "7AE9E4",
+  "table_idx": [
+   68
+  ],
+  "attr": "0d000000",
+  "jp": [
+   "じ・・・時間がないのら！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE9E4.04",
+  "block": "7AE9E4",
+  "table_idx": [
+   68
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "オマイらたおして、",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AE9E4.05",
+  "block": "7AE9E4",
+  "table_idx": [
+   68
+  ],
+  "attr": "0f000000",
+  "jp": [
+   "ウマいもの食べるのらぁ～～",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEC4C.00",
+  "block": "7AEC4C",
+  "table_idx": [
+   67
+  ],
+  "attr": "08000000",
+  "jp": [
+   "神殿が・・・新しいわ",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEC4C.01",
+  "block": "7AEC4C",
+  "table_idx": [
+   67
+  ],
+  "attr": "08000000",
+  "jp": [
+   "過去にとんできたのか？？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEC4C.02",
+  "block": "7AEC4C",
+  "table_idx": [
+   67
+  ],
+  "attr": "08000000",
+  "jp": [
+   "この空間は・・・！？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEC4C.03",
+  "block": "7AEC4C",
+  "table_idx": [
+   67
+  ],
+  "attr": "08000000",
+  "jp": [
+   "時間が無いようね",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEC4C.04",
+  "block": "7AEC4C",
+  "table_idx": [
+   67
+  ],
+  "attr": "09000000",
+  "jp": [
+   "誰にも！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEC4C.05",
+  "block": "7AEC4C",
+  "table_idx": [
+   67
+  ],
+  "attr": "09000000",
+  "jp": [
+   "私のジャマはさせないわっ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEEB4.00",
+  "block": "7AEEB4",
+  "table_idx": [
+   69
+  ],
+  "attr": "10000000",
+  "jp": [
+   "・・・神殿が・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEEB4.01",
+  "block": "7AEEB4",
+  "table_idx": [
+   69
+  ],
+  "attr": "10000000",
+  "jp": [
+   "過去みたいね・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEEB4.02",
+  "block": "7AEEB4",
+  "table_idx": [
+   69
+  ],
+  "attr": "12000000",
+  "jp": [
+   "ここもこわれていく・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEEB4.03",
+  "block": "7AEEB4",
+  "table_idx": [
+   69
+  ],
+  "attr": "10000000",
+  "jp": [
+   "早くしないと・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEEB4.04",
+  "block": "7AEEB4",
+  "table_idx": [
+   69
+  ],
+  "attr": "13000000",
+  "jp": [
+   "行かなきゃ・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AEEB4.05",
+  "block": "7AEEB4",
+  "table_idx": [
+   69
+  ],
+  "attr": "13000000",
+  "jp": [
+   "そこをどいて",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF11C.00",
+  "block": "7AF11C",
+  "table_idx": [
+   70
+  ],
+  "attr": "03000000",
+  "jp": [
+   "あら？",
+   "時間切れみたいね・・・"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF1CC.00",
+  "block": "7AF1CC",
+  "table_idx": [
+   71
+  ],
+  "attr": "04000000",
+  "jp": [
+   "な・・・・・・？",
+   "空間がどんどんゆがんで・・・・・・？！"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF27C.00",
+  "block": "7AF27C",
+  "table_idx": [
+   73
+  ],
+  "attr": "0e000000",
+  "jp": [
+   "あ～あ・・・",
+   "戻っちゃうのら・・・"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF32C.00",
+  "block": "7AF32C",
+  "table_idx": [
+   72
+  ],
+  "attr": "0b000000",
+  "jp": [
+   "くそ！！",
+   "だめなの・・・・・・！！"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF3DC.00",
+  "block": "7AF3DC",
+  "table_idx": [
+   74
+  ],
+  "attr": "11000000",
+  "jp": [
+   "・・・・・・・・・",
+   "戻される？？"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.00",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "02000000",
+  "jp": [
+   "ん、誰かいるの？！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.01",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "16000000",
+  "jp": [
+   "ん？こやつが我ラの邪魔をする者カ？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.02",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "16010000",
+  "jp": [
+   "無駄ナ危害ハ加エヌ、即刻立チ去レ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.03",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "00000000",
+  "jp": [
+   "なめた口たたくわね",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.04",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "01000000",
+  "jp": [
+   "無駄ナ危害ヲ加エテミヨ（笑）",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.05",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "16000000",
+  "jp": [
+   "オモシロイ・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.06",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "16010000",
+  "jp": [
+   "最近来訪モ少ナク",
+   "体ガナマッテイタトコロダチョウド良イ"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.07",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "16000000",
+  "jp": [
+   "我ラノチカラ見セテクレヨウ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.08",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "16010000",
+  "jp": [
+   "死シテコウカイスルガ良イワ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF48C.09",
+  "block": "7AF48C",
+  "table_idx": [
+   75
+  ],
+  "attr": "01000000",
+  "jp": [
+   "おバカな兄弟ね∑",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF854.00",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "07000000",
+  "jp": [
+   "かくれても無駄よ。",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF854.01",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "07000000",
+  "jp": [
+   "出てきなさい",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF854.02",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "16000000",
+  "jp": [
+   "ん？こやつが我ラの邪魔をする者カ？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.01"
+ },
+ {
+  "id": "7AF854.03",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "16010000",
+  "jp": [
+   "無駄ナ危害ハ加エヌ、即刻立チ去レ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.02"
+ },
+ {
+  "id": "7AF854.04",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "06000000",
+  "jp": [
+   "ふざけるな！去るのは私ではない！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF854.05",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "06000000",
+  "jp": [
+   "私は先に進まねばならない",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF854.06",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "16000000",
+  "jp": [
+   "オモシロイ・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.05"
+ },
+ {
+  "id": "7AF854.07",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "16010000",
+  "jp": [
+   "最近来訪モ少ナク",
+   "体ガナマッテイタトコロダチョウド良イ"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.06"
+ },
+ {
+  "id": "7AF854.08",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "06000000",
+  "jp": [
+   "私をバカにするか！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AF854.09",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "16000000",
+  "jp": [
+   "我ラノチカラ見セテクレヨウ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.07"
+ },
+ {
+  "id": "7AF854.10",
+  "block": "7AF854",
+  "table_idx": [
+   76
+  ],
+  "attr": "16010000",
+  "jp": [
+   "死シテコウカイスルガ良イワ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.08"
+ },
+ {
+  "id": "7AFC74.00",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "ん！！！",
+   "なんだかウマそうなにおいがするのら"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.01",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "16000000",
+  "jp": [
+   "ん？こやつが我ラの邪魔をする者カ？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.01"
+ },
+ {
+  "id": "7AFC74.02",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "16010000",
+  "jp": [
+   "無駄ナ危害ハ加エヌ、即刻立チ去レ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.02"
+ },
+ {
+  "id": "7AFC74.03",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0f000000",
+  "jp": [
+   "でへへ・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.04",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "この辺に食堂かレストランはないれすか？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.05",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "16010000",
+  "jp": [
+   "！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7A6744.04"
+ },
+ {
+  "id": "7AFC74.06",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "16000000",
+  "jp": [
+   "我々ヲバカにしているのか？",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.07",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "バカにしていないのら。",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.08",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "なんだかウマそうなにおいがするのら",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.09",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "16010000",
+  "jp": [
+   "アレハ我々ノ食事ダ",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.10",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0f000000",
+  "jp": [
+   "なんと！",
+   "ウマそ～なにおいなのらぁ"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.11",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "16000000",
+  "jp": [
+   "ホシカッタラ",
+   "チカラデウバッテミヨ！"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.12",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0f000000",
+  "jp": [
+   "マ～ジでぇ～！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.13",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0f000000",
+  "jp": [
+   "それなら一人占めできるのら！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7AFC74.14",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "16010000",
+  "jp": [
+   "死シテコウカイスルガ良イワ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AF48C.08"
+ },
+ {
+  "id": "7AFC74.15",
+  "block": "7AFC74",
+  "table_idx": [
+   78
+  ],
+  "attr": "0f000000",
+  "jp": [
+   "いただきますのら！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ }
+]

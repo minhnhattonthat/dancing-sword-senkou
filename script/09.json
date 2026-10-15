@@ -1,0 +1,363 @@
+[
+ {
+  "id": "7BB50C.00",
+  "block": "7BB50C",
+  "table_idx": [
+   196
+  ],
+  "attr": "06000000",
+  "jp": [
+   "身を清めて出なおして来なさい",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BB5BC.00",
+  "block": "7BB5BC",
+  "table_idx": [
+   197
+  ],
+  "attr": "05000000",
+  "jp": [
+   "汚らわしい・・・私の道をあけなさい！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BB66C.00",
+  "block": "7BB66C",
+  "table_idx": [
+   198
+  ],
+  "attr": "06000000",
+  "jp": [
+   "神のみもとにかえりなさい！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BB71C.00",
+  "block": "7BB71C",
+  "table_idx": [
+   199
+  ],
+  "attr": "04000000",
+  "jp": [
+   "神様・・・これが私の試練なのですか",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BB7CC.00",
+  "block": "7BB7CC",
+  "table_idx": [
+   200
+  ],
+  "attr": "06000000",
+  "jp": [
+   "私が世界を救う！　父上の名にかけて！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BB87C.00",
+  "block": "7BB87C",
+  "table_idx": [
+   201
+  ],
+  "attr": "06000000",
+  "jp": [
+   "私の名はクレア！　覚えておくがいい！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BB92C.00",
+  "block": "7BB92C",
+  "table_idx": [
+   208
+  ],
+  "attr": "0c000000",
+  "jp": [
+   "オマイもロクなもの食ってないのら",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BB9DC.00",
+  "block": "7BB9DC",
+  "table_idx": [
+   209
+  ],
+  "attr": "0f000000",
+  "jp": [
+   "こんなマズイのいらないのら！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BBA8C.00",
+  "block": "7BBA8C",
+  "table_idx": [
+   210
+  ],
+  "attr": "0e000000",
+  "jp": [
+   "戦うとチョウハラがヘるのら",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BBB3C.00",
+  "block": "7BBB3C",
+  "table_idx": [
+   211
+  ],
+  "attr": "0d000000",
+  "jp": [
+   "おいしいものにあいたいのらぁ！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BBBEC.00",
+  "block": "7BBBEC",
+  "table_idx": [
+   212
+  ],
+  "attr": "0d000000",
+  "jp": [
+   "伝説の珍味を探し出すのらぁ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BBC9C.00",
+  "block": "7BBC9C",
+  "table_idx": [
+   213
+  ],
+  "attr": "0d000000",
+  "jp": [
+   "グルメの旅はまだツヅくのらぁ！！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BBD4C.00",
+  "block": "7BBD4C",
+  "table_idx": [
+   202
+  ],
+  "attr": "0a000000",
+  "jp": [
+   "弱い・・・相手にならない・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BBDFC.00",
+  "block": "7BBDFC",
+  "table_idx": [
+   203
+  ],
+  "attr": "09000000",
+  "jp": [
+   "もう終わりか！",
+   "死ぬ気でかかってこい！"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BBEAC.00",
+  "block": "7BBEAC",
+  "table_idx": [
+   204
+  ],
+  "attr": "0a000000",
+  "jp": [
+   "終わりにするのだ、全てを・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BBF5C.00",
+  "block": "7BBF5C",
+  "table_idx": [
+   205
+  ],
+  "attr": "09000000",
+  "jp": [
+   "面ドウだ！",
+   "まとめて相手をしてやる！"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BC00C.00",
+  "block": "7BC00C",
+  "table_idx": [
+   206
+  ],
+  "attr": "09000000",
+  "jp": [
+   "さぁ、私を殺すのは誰なの？！",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BC0BC.00",
+  "block": "7BC0BC",
+  "table_idx": [
+   207
+  ],
+  "attr": "0a000000",
+  "jp": [
+   "双龍煌焔刀が、寂しくて泣いているわ・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BC16C.00",
+  "block": "7BC16C",
+  "table_idx": [
+   214
+  ],
+  "attr": "10000000",
+  "jp": [
+   "行かなきゃ・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": "",
+  "same_as": "7AEEB4.04"
+ },
+ {
+  "id": "7BC21C.00",
+  "block": "7BC21C",
+  "table_idx": [
+   215
+  ],
+  "attr": "10000000",
+  "jp": [
+   "誰かが待っている・・・",
+   "そんな気がするから・・・"
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BC2CC.00",
+  "block": "7BC2CC",
+  "table_idx": [
+   216
+  ],
+  "attr": "10000000",
+  "jp": [
+   "ごめんなさい、私行かなきゃ",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BC37C.00",
+  "block": "7BC37C",
+  "table_idx": [
+   217
+  ],
+  "attr": "10000000",
+  "jp": [
+   "誰かが、私を呼んでいる・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BC42C.00",
+  "block": "7BC42C",
+  "table_idx": [
+   218
+  ],
+  "attr": "12000000",
+  "jp": [
+   "また、戦いがくり返されるのね・・・",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ },
+ {
+  "id": "7BC4DC.00",
+  "block": "7BC4DC",
+  "table_idx": [
+   219
+  ],
+  "attr": "11000000",
+  "jp": [
+   "今は・・・戦うしかないのね・・・また",
+   ""
+  ],
+  "en": "",
+  "status": "todo",
+  "notes": ""
+ }
+]
