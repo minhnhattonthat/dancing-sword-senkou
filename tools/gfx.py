@@ -162,11 +162,51 @@ def charselect(rom, name):
             tiles_at, map_at, old)
 
 
+# ---- title logo (BG3 8bpp, tools/title_gfx.py): 閃光 -> "Senkou" (the game's romanised subtitle, on black);
+#  the small katakana reading ダンシングソード under "Dancing" (it only spells the English logo) is painted over.
+TITLE_KANJI = (178, 45, 214, 56)      # x0, y0, x1, y1 (exclusive)
+TITLE_KANA = (56, 49, 122, 55)
+TITLE_KANA_HAIR = 86
+
+
+def title_edit(rom):
+    import title_gfx as t
+    work = bytearray(rom)
+    t._cache.clear()
+    used = t.tile_uses(work)
+    black, white, grey = t.get_px(work, 172, 47), t.get_px(work, 190, 41), t.get_px(work, 184, 45)
+    touched = set()
+
+    def put(x, y, v):
+        e = t.entries_cache(work)[(y // 8) * 32 + x // 8] & 0x3FF
+        assert e and used[e] == 1, (x, y, e)
+        t.set_px(work, x, y, v)
+        touched.add(e)
+    x0, y0, x1, y1 = TITLE_KANA
+    for x in range(x0, x1):          # the reading sits on the black backdrop: paint it black ...
+        for y in range(y0, y1):
+            if x < TITLE_KANA_HAIR:
+                put(x, y, black)
+            else:                                            # ... over the red hair: copy the hair from below
+                put(x, y, t.get_px(work, x, y + (y1 - y0)))
+    x0, y0, x1, y1 = TITLE_KANJI
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            put(x, y, black)
+    img = text_image('Senkou', 1, body=white, shadow=grey)
+    ox = x0 + (x1 - x0 - len(img[0])) // 2
+    for y, row in enumerate(img):
+        for x, c in enumerate(row):
+            if c and y0 + y - 4 < y1:
+                put(ox + x, y0 + y - 4, c)
+    return [(t.TILES + e * 64, bytes(work[t.TILES + e * 64:t.TILES + e * 64 + 64])) for e in sorted(touched)]
+
+
 def build_edits(rom=None):
     if rom is None:
         from textlib import ROM
         rom = ROM.read_bytes()
-    edits, at = [], GFX_LO
+    edits, at = title_edit(rom), GFX_LO
     for name in CS_NAMES:
         tiles, mp, _, _, _ = charselect(rom, name)
         edits += [(at, tiles), (at + len(tiles), mp),
