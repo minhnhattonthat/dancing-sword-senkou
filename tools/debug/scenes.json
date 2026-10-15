@@ -1,8 +1,10 @@
 {
  "intro": {"route": "4000 -", "frames": 4000, "shot_every": 60},
- "title": {"route": "700 -;6 start;300 -", "frames": 1000, "shot_every": 100},
- "option": {"route": "700 -;6 start;150 -;6 down;20 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;200 -;6 down;30 -;6 down;30 -;6 a;120 -;6 b;60 -;6 down;30 -;6 a;120 -", "frames": 1700, "shot_every": 30},
- "survival": {"route": "700 -;6 start;150 -;6 down;20 -;6 down;20 -;6 a;300 -", "frames": 3000, "mash": 30, "shot_every": 60},
- "training": {"route": "700 -;6 start;150 -;6 down;20 -;6 down;20 -;6 down;20 -;6 a;300 -", "frames": 2400, "mash": 30, "shot_every": 60},
- "story_idle": {"route": "700 -;6 start;120 -;6 start;120 -;6 a;120 -;6 a;120 -;6 a;150 -;6 a;150 -;6 a;150 -;6 a;150 -;6 a;150 -;6 a;150 -;6 a;150 -;6 a;150 -", "frames": 9000, "shot_every": 120}
+ "title": {"route": "700 -;6 start;400 -", "frames": 1200, "shot_every": 100},
+ "option": {"route": "700 -;6 start;400 -;6 down;30 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;240 -;6 down;40 -;6 down;40 -;6 a;150 -;6 b;100 -;6 down;40 -;6 a;150 -;6 b;100 -;6 down;40 -;6 a;150 -", "frames": 2600, "shot_every": 40},
+ "survival": {"route": "700 -;6 start;400 -;6 down;30 -;6 down;30 -;6 a;400 -", "frames": 3200, "mash": 30, "shot_every": 60},
+ "training": {"route": "700 -;6 start;400 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;400 -", "frames": 2600, "mash": 30, "shot_every": 60},
+ "continue": {"route": "700 -;6 start;400 -;6 down;30 -;6 a;400 -", "frames": 1800, "shot_every": 60},
+ "charselect": {"route": "700 -;6 start;300 -;6 start;80 -;6 a;200 -;6 down;80 -;6 down;80 -;6 down;80 -;6 down;80 -;80 -", "frames": 1620, "shots": "1150,1230,1310,1390,1470,1550"},
+ "story_idle": {"route": "700 -;6 start;400 -;6 a;150 -;6 a;200 -", "frames": 9000, "mash": 150, "shot_every": 120}
 }

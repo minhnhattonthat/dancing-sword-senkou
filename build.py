@@ -20,7 +20,7 @@ import gfx  # noqa: E402
 BUILD = ROOT / 'build'
 VWF_BASE = 0x7C0000
 HOOK_DRAWSTRING = 0x037184
-FREE_LO, FREE_HI = 0x7C1000, 0x800000   # 0x7BD134.. is 0xFF padding to the end of the 8 MiB ROM
+FREE_LO, FREE_HI = 0x7C1000, gfx.GFX_LO   # 0x7BD134.. is 0xFF padding to the end of the 8 MiB ROM; gfx above
 MARKER = 'The quick brown fox jumps over the lazy dog while the sword dances.'
 
 
