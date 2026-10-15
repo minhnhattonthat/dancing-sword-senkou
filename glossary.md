@@ -25,8 +25,8 @@ Lint: a row's EN must appear when its JP appears in the line (warning count); an
   - Rinrei: grim avenger, terse and formal, devoted to Lord Koun; calls enemies 貴様 "you wretches"/"you".
   - Mimi: cheerful glutton with a childish verbal tic (のら / なのら, slurred ら for だ). Drop the tic itself; keep a
     bouncy, kiddy, food-obsessed voice ("I'm sooo hungry~!", "Yum yum!", "Whatcha been eating?").
-  - Luciel: quiet, dazed, few words, searching for her little sister Emilio.
-  - Emilio: Luciel's little sister, childlike (uses ボク -> plain "I").
+  - Luciel: quiet, dazed, few words, searching for her little brother Emilio.
+  - Emilio: Luciel's little brother (エミリオは私の弟よ), childlike (uses ボク -> plain "I").
   - The "YEAH♪" rapper demon (チェキラッチョ): DJ/rap patter, "Check it out, yo!"
 
 ## Characters
@@ -41,7 +41,8 @@ Lint: a row's EN must appear when its JP appears in the line (warning count); an
 | 小運 | Koun | | Rinrei's dead lord (小運様 -> "Lord Koun") | Xiaoyun |
 | ミィミィ | Mimi | | heroine 4, glutton; portraits 0x0C-0x0F | Mii Mii, Miimii |
 | ルシエル | Luciel | | heroine 5; portraits 0x10-0x13 | Lucielle, Rushieru |
-| エミリオ | Emilio | | Luciel's little sister | |
+| エミリオ | Emilio | | Luciel's little brother (he/him) | |
+| Ｋ・Ｉ・Ｄ | K-I-D | | the rapper demon's DJ name | |
 | 殿 | my lord | | Kyoko's lord | |
 | 先生 | Teacher | | Claire's mentor (female) | Sensei |
 | 赤揃衆 | Red Guard | | Kyoko's red-armoured warrior band (天下の赤揃衆 -> "the Red Guard, famed across the land") | |
@@ -53,6 +54,8 @@ Lint: a row's EN must appear when its JP appears in the line (warning count); an
 | 過去に戻る神殿 | temple that sends you to the past | | | |
 | 迷宮の塔 | Labyrinth Tower | | | |
 | 魔法陣 | magic circle | | | |
+| 白地 | the White Land | | sealed demon realm from the opening crawl (「白地」); the rapper may pun on it | |
+| 切りかぶ | tree stump | | | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

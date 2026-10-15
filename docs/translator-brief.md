@@ -3,7 +3,7 @@
 You translate part of the Japanese script of Dancing Sword: Senkou into English for a fan patch. It is a side-scrolling
 sword action game: five heroines (Kyoko Kusunoki, Claire Ludendorff, Rinrei, Mimi, Luciel) each fight through the same
 stages (volcano, poison swamp, temple of time, labyrinth tower, final land) with short story scenes, boss banter and
-an ending per heroine. Tone: light, playful anime banter with some grim moments (Rinrei's revenge, Luciel's lost sister).
+an ending per heroine. Tone: light, playful anime banter with some grim moments (Rinrei's revenge, Luciel's lost little brother Emilio).
 Work only on the batch named in your dispatch. Do all translation yourself; do not dispatch subagents.
 Repo root: H:\translation\batch\projects\dancing-sword-senkou (run commands from there).
 
