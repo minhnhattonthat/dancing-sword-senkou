@@ -56,15 +56,17 @@ def main():
     blocks = all_blocks(rom)
     if a.blocks:
         blocks = blocks[:a.blocks]
-    pages = []
+    pages, counts = [], []
     for b in blocks:
         ps, _ = read_block(rom, b)
-        for l1, l2, _ in ps:
+        n = next((i for i, p in enumerate(ps) if p[2][0] == 0xFF), len(ps))  # portrait FF also ends a dialogue
+        counts.append(n)
+        for l1, l2, _ in ps[:n]:
             pages.append((b, l1, l2))
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     gen = out / 'blocks.lua'
-    gen.write_text('BLOCKS = {%s}\n' % ', '.join('{%d, %d}' % (b, len(read_block(rom, b)[0])) for b in blocks))
+    gen.write_text('BLOCKS = {%s}\n' % ', '.join('{%d, %d}' % (b, n) for b, n in zip(blocks, counts) if n))
     (out / 'tour.bin').unlink(missing_ok=True)
     frames = 1500 + len(pages) * 40
     r = subprocess.call([sys.executable, '-X', 'utf8', str(SKILL / 'scripts' / 'emu.py'), a.rom, '--out', str(out),

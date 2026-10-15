@@ -39,8 +39,10 @@ L.on_frame(function(f)
   if pg >= BLOCKS[bi][2] then
     bi = bi + 1; pg = 0
     if bi > #BLOCKS then out:close(); L.log("DONE " .. n); L.finish(0); return end
-    -- next A: idx+1 -> page 0 of the next block
-    emu.write32(0x0300567C, 0x08000000 + BLOCKS[bi][1] - 0x58 * (idx + 1), mem)
+    -- next A: idx 0 -> 1 = page 0 of the next block (reset idx so the u8 never wraps)
+    emu.write(0x03000123, 0, mem)
+    emu.write32(0x0300567C, 0x08000000 + BLOCKS[bi][1] - 0x58, mem)
+    lastidx = 0
   end
   L.press("-", 2); L.press("a", 4); L.press("-", 4)
   wait = 8

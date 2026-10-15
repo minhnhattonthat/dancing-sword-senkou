@@ -3,7 +3,9 @@
 - **Encoding:** Shift-JIS, fixed-length line fields. All story/stage dialogue lives in page blocks at 0x7A5144-0x7BC58B.
 - **Page** = 0x58 bytes: line1[0x2A] line2[0x2A] (SJIS, NUL-padded, max 20 chars) + 4 attribute bytes:
   - +0x54 s8 portrait id (0x64 = none), +0x55 expression, +0x56 screen effect 1-7 (0 none; jump table 0x080385E0,
-    fired at page start), +0x57 effect length. A page whose +0x54..55 is FF FF ends the block.
+    fired at page start), +0x57 effect length. A page whose +0x54..55 is FF FF ends the block; a portrait byte FF
+    (FF 63) also ends the dialogue: block 140 (final boss) holds five heroine variants separated by FF 63 pages, and
+    table entries 141-145 point into its middle (overlapping blocks; the build copies each one separately).
 - **Pointers:** table at 0x7BC58C, 220 u32 (0x08xxxxxx) entries, 0-terminated at 0x7BC8FC; 200 unique blocks
   (story intros, stage objectives repeated at the end). Indexed by code (0x08037524: `table[char_stage + 5*[0x300007A] + 0x90]` and
   many `ldr r0,=table; ldr r0,[r0,#n]`). One more block (0x7AB7B4) is only reached from the literal 0x0802AEA4.
