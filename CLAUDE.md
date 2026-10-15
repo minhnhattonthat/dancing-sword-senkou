@@ -19,5 +19,5 @@ Skill: translate-retro-game (H:\translation\batch\.claude\skills\translate-retro
 - Commit as minhnhattonthat with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Never push/publish/upload.
 
 ## Status
-- Done: Step 0, recon, debug tool (block viewer, scene warps incl. endings via scene id 22), identity test, VWF + relocation, width gate (160 px x 2 lines, both boxes), full translation (5 batches + reviews + fixes), graphics (crawl, title, char-select names, credits card). Next: dialogue screen tour (`tools/tour_text.py`), release (`build.py release`). Open bugs: none.
+- Done: Step 0, recon, debug tool (block viewer, scene warps incl. endings via scene id 22), identity test, VWF + relocation, width gate (160 px x 2 lines, both boxes), full translation (5 batches + reviews + fixes + sampled review), graphics (crawl, title, char-select names, credits card), dialogue tour 892/892, release v1.0 (release/dancing-sword-senkou_en.zip, patched CRC32 C34FD922). Next: user playtest. Open bugs: none. Not reached by the debug tool: game-over/continue screen (idle player is never killed; no HP address found yet).
 - Tour/QA: `python -X utf8 tools/debug/tour.py --only NAME,..` (scenes.json); `tools/tour_text.py` checks every dialogue page's VRAM against a Python render.
