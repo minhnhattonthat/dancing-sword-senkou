@@ -9,7 +9,8 @@ Lint: a row's EN must appear when its JP appears in the line (warning count); an
 - Romanisation: no official English release or earlier fan patch exists -> modified Hepburn for Japanese names
   (Kyoko, not Kyouko); katakana Western names in their natural Western spelling (Claire, Emilio).
   OVERRIDE (official): the game's own English staff roll spells the cast KYOKO KUSUNOKI, CLAIRE LUDENDORFF, MIE MIE,
-  RIN REI, LUCIER - those spellings win (Mie Mie, Rin Rei, Lucier). Voice notes below still say Mimi/Rinrei/Luciel.
+  RIN REI, LUCIER - those spellings win (Mie Mie, Rin Rei, Lucier). In the voice notes below and in
+  docs/style-reference.md, "Mimi" = Mie Mie, "Rinrei" = Rin Rei, "Luciel" = Lucier (labels only).
 - Credits: English. Graphics text (title, character-select names, intro scroll, banners): translated.
 - Abbreviations: none. Full names and terms; the engine was widened (VWF, auto-paging) instead.
 - Register: light, playful action-game banter; keep each heroine's verbal tics in English form (see Style).
