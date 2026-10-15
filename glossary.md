@@ -7,7 +7,9 @@ Lint: a row's EN must appear when its JP appears in the line (warning count); an
 - Honorifics: dropped, conveyed through register (様 -> "Lord"/"Lady"/"my lord" only where the relationship needs it).
   Name order: given name first (Kyoko Kusunoki).
 - Romanisation: no official English release or earlier fan patch exists -> modified Hepburn for Japanese names
-  (Kyoko, not Kyouko); katakana Western names in their natural Western spelling (Claire, Luciel, Emilio).
+  (Kyoko, not Kyouko); katakana Western names in their natural Western spelling (Claire, Emilio).
+  OVERRIDE (official): the game's own English staff roll spells the cast KYOKO KUSUNOKI, CLAIRE LUDENDORFF, MIE MIE,
+  RIN REI, LUCIER - those spellings win (Mie Mie, Rin Rei, Lucier). Voice notes below still say Mimi/Rinrei/Luciel.
 - Credits: English. Graphics text (title, character-select names, intro scroll, banners): translated.
 - Abbreviations: none. Full names and terms; the engine was widened (VWF, auto-paging) instead.
 - Register: light, playful action-game banter; keep each heroine's verbal tics in English form (see Style).
@@ -37,10 +39,10 @@ Lint: a row's EN must appear when its JP appears in the line (warning count); an
 | 楠家 | the Kusunoki house | | | |
 | クレア | Claire | | heroine 2, Claire Ludendorff; portraits 0x04-0x07 | Clair, Crea |
 | ルーデンドルフ | Ludendorff | | Claire's family name | |
-| リンレイ | Rinrei | | heroine 3, avenger; portraits 0x08-0x0B | Linlei, Ringrei |
+| リンレイ | Rin Rei | | heroine 3, avenger; portraits 0x08-0x0B; spelling from the game's own staff roll | Rinrei, Linlei |
 | 小運 | Koun | | Rinrei's dead lord (小運様 -> "Lord Koun") | Xiaoyun |
-| ミィミィ | Mimi | | heroine 4, glutton; portraits 0x0C-0x0F | Mii Mii, Miimii |
-| ルシエル | Luciel | | heroine 5; portraits 0x10-0x13 | Lucielle, Rushieru |
+| ミィミィ | Mie Mie | | heroine 4, glutton; portraits 0x0C-0x0F; staff-roll spelling | Mimi, Mii Mii |
+| ルシエル | Lucier | | heroine 5; portraits 0x10-0x13; staff-roll spelling | Luciel, Lucielle |
 | エミリオ | Emilio | | Luciel's little brother (he/him) | |
 | Ｋ・Ｉ・Ｄ | K-I-D | | the rapper demon's DJ name | |
 | 殿 | my lord | | Kyoko's lord | |

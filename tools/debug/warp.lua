@@ -19,6 +19,14 @@ L.on_frame(function(f)
   if POKES and f >= (POKE_FROM or 0) and f <= (POKE_TO or 1e9) then
     for _, p in ipairs(POKES) do emu.write16(p[1], p[2], emu.memType.gbaMemory) end
   end
+  -- SCENE_ID = n at frame SCENE_AT: jump the main scene machine (byte 0x0300199A indexes the init/loop table
+  -- 0x0879AC64; 22 = ending init). CHAR = 0..4 (0x03000016), PART = 0x0300007A.
+  if SCENE_ID and f == (SCENE_AT or 1100) then
+    if CHAR then emu.write16(0x03000016, CHAR, emu.memType.gbaMemory) end
+    emu.write16(0x0300007A, PART or 0, emu.memType.gbaMemory)
+    emu.write(0x0300199A, SCENE_ID, emu.memType.gbaMemory)
+    L.log(string.format("scene -> %d char %s", SCENE_ID, tostring(CHAR)))
+  end
   if GOD and PLAYER_HP then emu.write16(PLAYER_HP, GOD_HP or 0x60, emu.memType.gbaMemory) end
 end)
 

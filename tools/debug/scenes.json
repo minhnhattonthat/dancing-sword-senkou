@@ -5,6 +5,11 @@
  "survival": {"route": "700 -;6 start;400 -;6 down;30 -;6 down;30 -;6 a;400 -", "frames": 3200, "mash": 30, "shot_every": 60},
  "training": {"route": "700 -;6 start;400 -;6 down;30 -;6 down;30 -;6 down;30 -;6 a;400 -", "frames": 2600, "mash": 30, "shot_every": 60},
  "continue": {"route": "700 -;6 start;400 -;6 down;30 -;6 a;400 -", "frames": 1800, "shot_every": 60},
- "charselect": {"route": "700 -;6 start;300 -;6 start;80 -;6 a;200 -;6 down;80 -;6 down;80 -;6 down;80 -;6 down;80 -;80 -", "frames": 1620, "shots": "1150,1230,1310,1390,1470,1550"},
+ "charselect": {"route": "700 -;6 start;300 -;6 start;80 -;6 a;250 -;6 down;120 -;6 down;120 -;6 down;120 -;6 down;120 -", "frames": 1850, "shots": "1330,1456,1582,1708,1834"},
+ "ending_kyoko": {"route": "700 -;6 start;300 -;6 start;80 -;6 a;150 -", "frames": 9000, "mash": 120, "shot_every": 60, "vars": {"SCENE_ID": 22, "CHAR": 0, "SCENE_AT": 1200}},
+ "ending_claire": {"route": "700 -;6 start;300 -;6 start;80 -;6 a;150 -", "frames": 9000, "mash": 120, "shot_every": 60, "vars": {"SCENE_ID": 22, "CHAR": 1, "SCENE_AT": 1200}},
+ "ending_rinrei": {"route": "700 -;6 start;300 -;6 start;80 -;6 a;150 -", "frames": 9000, "mash": 120, "shot_every": 60, "vars": {"SCENE_ID": 22, "CHAR": 2, "SCENE_AT": 1200}},
+ "ending_mimi": {"route": "700 -;6 start;300 -;6 start;80 -;6 a;150 -", "frames": 9000, "mash": 120, "shot_every": 60, "vars": {"SCENE_ID": 22, "CHAR": 3, "SCENE_AT": 1200}},
+ "ending_luciel": {"route": "700 -;6 start;300 -;6 start;80 -;6 a;150 -", "frames": 9000, "mash": 120, "shot_every": 60, "vars": {"SCENE_ID": 22, "CHAR": 4, "SCENE_AT": 1200}},
  "story_idle": {"route": "700 -;6 start;400 -;6 a;150 -;6 a;200 -", "frames": 9000, "mash": 150, "shot_every": 120}
 }

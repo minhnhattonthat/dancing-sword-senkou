@@ -77,8 +77,8 @@ def intro_image():
 #  (reads top to bottom): given name at 2x, family name at 1x beside it.
 CS_TILE_INS = {'Kyoko': 0x0344F2, 'Claire': 0x0345BA, 'Rinrei': 0x034682, 'Mimi': 0x03474A, 'Luciel': 0x034812}
 CS_MAP_LIT = {'Kyoko': 0x034554, 'Claire': 0x03461C, 'Rinrei': 0x0346E4, 'Mimi': 0x0347AC, 'Luciel': 0x0348B8}
-CS_NAMES = {'Kyoko': ('Kyoko', 'Kusunoki'), 'Claire': ('Claire', 'Ludendorff'), 'Rinrei': ('Rinrei', ''),
-            'Mimi': ('Mimi', ''), 'Luciel': ('Luciel', '')}
+CS_NAMES = {'Kyoko': ('Kyoko', 'Kusunoki'), 'Claire': ('Claire', 'Ludendorff'), 'Rinrei': ('Rin Rei', ''),
+            'Mimi': ('Mie Mie', ''), 'Luciel': ('Lucier', '')}   # staff-roll spellings
 CS_TILES, CS_FIRST = 70, 0x60
 
 
@@ -202,11 +202,36 @@ def title_edit(rom):
     return [(t.TILES + e * 64, bytes(work[t.TILES + e * 64:t.TILES + e * 64 + 64])) for e in sorted(touched)]
 
 
+# ---- staff-roll title card "DANCING SWORD -- 閃光 --" (BG0 4bpp, tiles raw at 0x4D38A4 + 32*t, 1 = white,
+#  2 = grey). 閃光 = tiles 0x36-0x39 (y 80-87) over 0x3D-0x40 (y 88-95), x 104-135, each used once in the map.
+CREDITS_TILES = 0x4D38A4
+CREDITS_GRID = [[0x36, 0x37, 0x38, 0x39], [0x3D, 0x3E, 0x3F, 0x40]]
+
+
+def credits_edit():
+    img = text_image('Senkou', 1, body=1, shadow=2)
+    px = [[0] * 32 for _ in range(16)]
+    ox = (32 - len(img[0])) // 2
+    for y, row in enumerate(img):
+        for x, c in enumerate(row):
+            if c and 0 <= y - 1 < 16:
+                px[y - 1][ox + x] = c
+    out = []
+    for ty, trow in enumerate(CREDITS_GRID):
+        for tx, t in enumerate(trow):
+            b = bytearray(32)
+            for y in range(8):
+                for x in range(8):
+                    b[y * 4 + x // 2] |= px[ty * 8 + y][tx * 8 + x] << (4 * (x & 1))
+            out.append((CREDITS_TILES + t * 32, bytes(b)))
+    return out
+
+
 def build_edits(rom=None):
     if rom is None:
         from textlib import ROM
         rom = ROM.read_bytes()
-    edits, at = title_edit(rom), GFX_LO
+    edits, at = title_edit(rom) + credits_edit(), GFX_LO
     for name in CS_NAMES:
         tiles, mp, _, _, _ = charselect(rom, name)
         edits += [(at, tiles), (at + len(tiles), mp),
