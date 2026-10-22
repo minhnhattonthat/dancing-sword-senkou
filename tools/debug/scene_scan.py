@@ -1,12 +1,14 @@
 """Jump the scene machine to every scene id (0x0300199A, table 0x0879AC64) from the title screen and shoot each,
 to find screens no route reaches (game over, continue, ...). python -X utf8 tools/debug/scene_scan.py [--rom R] [--ids 0-29]"""
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-EMU = Path(r'H:\translation\batch\.claude\skills\translate-retro-game\scripts\emu.py')
+EMU = Path(os.environ.get(
+    'SKILL', 'C:/Users/Nathan/.claude/plugins/marketplaces/retro-translation/skills/translate-retro-game')) / 'scripts/emu.py'
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--rom', default=str(ROOT / 'build' / 'dancing_sword_en.gba'))

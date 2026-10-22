@@ -11,6 +11,7 @@ import zlib
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / 'tools'))
+import check_rom  # noqa: E402
 import font_en  # noqa: E402
 from asm import assemble, thumb_ldr_bx  # noqa: E402
 from textlib import (EXTRA_SLOTS, LINE, PAGE, ROM, ROOT, TABLE, encode_line, load_script, paginate,  # noqa: E402
@@ -124,6 +125,7 @@ def main():
     ap.add_argument('--qa', action='append', default=[], help='ID=text')
     ap.add_argument('--out')
     a = ap.parse_args()
+    check_rom.check()
     if a.cmd == 'identity':
         orig = ROM.read_bytes()
         ok = identity(orig, load_script()) == orig

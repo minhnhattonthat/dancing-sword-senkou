@@ -3,6 +3,7 @@ drew against an independent Python rendering of the same page (tools/tour_text.l
   python -X utf8 tools/tour_text.py [--rom build/dancing_sword_en.gba] [--blocks N]   (exit 1 on any mismatch)
 Catches lost/extra glyphs, wrong widths, paging errors and blocks that never show."""
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -12,7 +13,8 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import font_en  # noqa: E402
 from textlib import LINE, PAGE, all_blocks, read_block  # noqa: E402
 
-SKILL = Path(r'H:\translation\batch\.claude\skills\translate-retro-game')
+SKILL = Path(os.environ.get(
+    'SKILL', 'C:/Users/Nathan/.claude/plugins/marketplaces/retro-translation/skills/translate-retro-game'))
 REC = 0xA00
 GLYPHS, WIDTHS = font_en.build()
 

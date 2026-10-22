@@ -2,6 +2,7 @@
 -> release/dancing-sword-senkou_en.zip (patch + README). --no-tour skips the dialogue screen tour (tools/tour_text.py).
 Never publishes anything."""
 import hashlib
+import os
 import subprocess
 import sys
 import zipfile
@@ -9,7 +10,8 @@ import zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SKILL = Path(r'H:\translation\batch\.claude\skills\translate-retro-game')
+SKILL = Path(os.environ.get(
+    'SKILL', 'C:/Users/Nathan/.claude/plugins/marketplaces/retro-translation/skills/translate-retro-game'))
 sys.path.insert(0, str(ROOT / 'tools'))
 from textlib import EXTRA_SLOTS, ROM, TABLE, TABLE_END  # noqa: E402
 

@@ -5,12 +5,14 @@ bottom story box, then again in the top in-stage box), or all-blocks (every tabl
 Each run writes DIR/sheet.png (frames that changed)."""
 import argparse
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SKILL = Path(r'H:\translation\batch\.claude\skills\translate-retro-game')
+SKILL = Path(os.environ.get(
+    'SKILL', 'C:/Users/Nathan/.claude/plugins/marketplaces/retro-translation/skills/translate-retro-game'))
 EMU = SKILL / 'scripts' / 'emu.py'
 sys.path.insert(0, str(ROOT / 'tools'))
 
