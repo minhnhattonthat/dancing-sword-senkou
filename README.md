@@ -9,6 +9,19 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Story, stage, boss and ending dialogue | Translated |
+| Opening text crawl | Translated |
+| Title screen | Translated (logo subtitle 閃光 reads "Senkou"; its katakana reading was removed) |
+| Character-select names, staff-roll title card | Translated |
+| Menus, HUD, options, staff roll | Already English in the original (unchanged, including its "Charactor Select" spelling) |
+| Game-over / continue screen | Not checked in play |
+
+Known issues: none known; [report one](../../issues/new/choose).
+
 ## What's here
 
 | Path | What it is |
